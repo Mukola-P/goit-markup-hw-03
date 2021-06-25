@@ -146,11 +146,11 @@ img {
   color: var(--secondary-color);
 }
 /* розметка skill*/
-.skill-
+
 /* hero 1htm*/
 
 .hero-title {
-  font: var(--main-font);
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
