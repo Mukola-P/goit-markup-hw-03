@@ -156,8 +156,6 @@ img {
 
   text-align: center;
   color: var(--white-color);
-  
-  
 }
 
 .modal-btn {
@@ -168,11 +166,9 @@ img {
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
+  
 
   padding: 12px 32px;
-
-  
-  
 
   border-radius: 4px;
   display: block;
@@ -181,16 +177,11 @@ img {
   color: var(--white-color);
 }
 /*розметка  hero}*/
+
 .hero-title{
   margin-bottom: 30px;
 }
 
-.disposition {
-  padding: 200px 452px 280px;
-}
-.disposition-bt{
-  padding: 0px 700px 200px;
-}
 /* skill 1htm*/
 .skill-title {
   display: none;
@@ -308,10 +299,8 @@ img {
 /* fon*/
 .hero {
   background: #2f303a;
-  width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
+ padding-top: 200px;
+ padding-bottom: 280px;
 }
 
 .footer {
