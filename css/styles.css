@@ -84,8 +84,7 @@ img {
   display: flex;
   align-items: center;
 }
-.menu-item:not(:last-child)
- {
+.menu-item:not(:last-child) {
   margin-right: 40px;
 }
 
@@ -154,14 +153,13 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-margin-bottom: 30px;
+  margin-bottom: 30px;
   color: var(--white-color);
 }
 
 .modal-btn {
   background-color: var(--secondary-color);
-  box-shadow: 0px 4px 4px 
-  rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -171,23 +169,20 @@ margin-bottom: 30px;
 
   border-radius: 4px;
 
-
-
   color: var(--white-color);
 }
 /*розметка  hero}*/
 
 /* skill 1htm*/
-.skill-roster{
+.skill-roster {
   display: flex;
-  
 }
-.skill{
+.skill {
   margin-bottom: 94px;
 }
 /* розметка skill*/
 .skill-title {
-  visibility: hidden  ;
+  visibility: hidden;
 }
 
 .roster-down {
@@ -203,22 +198,20 @@ margin-bottom: 30px;
 
   color: var(--accent-color);
 }
-.slill-item{
-flex-basis: calc((100%-120)/4);
-margin-left: 30px;
-
+.slill-item {
+  flex-basis: calc((100%-120) / 4);
+  margin-left: 30px;
 }
-.item-down:not(:last-child){
+.item-down:not(:last-child) {
   margin-left: 30px;
 }
 .skill-description {
-font-family: var(--main-font);
-font-size: 14px;
-line-height: 24px;
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 24px;
 
-
-letter-spacing: 0.03em;
-color: var(--third-color);
+  letter-spacing: 0.03em;
+  color: var(--third-color);
 }
 
 /* work 1htm*/
@@ -320,12 +313,11 @@ color: var(--third-color);
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 280px;
-  
-margin-bottom: 94px;
+
+  margin-bottom: 94px;
   text-align: center;
   color: var(--white-color);
 }
-
 
 .footer {
   background: #2f303a;
