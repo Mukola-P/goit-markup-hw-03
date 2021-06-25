@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*
+*::before,
+*::after {
+  box-sizing: inherit;
+
+}
+
+
 :root{
     --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif; 
@@ -11,8 +23,9 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    
 }
+
+
 .list {
   list-style: none;
 }
@@ -20,6 +33,69 @@ body{
   text-decoration: none;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  
+}
+img {
+  display: block;
+}
+/*розметка  heder}*/
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-cont{
+display: flex;
+align-items: center;
+}
+
+.auth-nav{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 90px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.mail-link {
+flex-direction: row-reverse;
+margin-right: 50px;
+}
 /* header 1htm*/
 .logo,
 .logo-text {
