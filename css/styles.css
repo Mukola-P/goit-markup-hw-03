@@ -154,7 +154,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
+margin-bottom: 30px;
   color: var(--white-color);
 }
 
@@ -171,6 +171,8 @@ img {
 
   border-radius: 4px;
 
+
+
   color: var(--white-color);
 }
 /*розметка  hero}*/
@@ -178,8 +180,6 @@ img {
 /* skill 1htm*/
 .skill-roster{
   display: flex;
-  margin-top: -20px;
-  margin-left: -20px;
   
 }
 .skill{
@@ -187,7 +187,7 @@ img {
 }
 /* розметка skill*/
 .skill-title {
-  display: none;
+  visibility: hidden  ;
 }
 
 .roster-down {
@@ -320,8 +320,8 @@ color: var(--third-color);
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 280px;
-  margin-bottom: 90px;
-
+  
+margin-bottom: 94px;
   text-align: center;
   color: var(--white-color);
 }
