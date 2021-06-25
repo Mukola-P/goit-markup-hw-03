@@ -15,11 +15,11 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <div class="container header-cont">
             <nav class="navigation">
                 <a class="logo link" href="./index.html"><span class="logo-text">Web</span>Studio</a>
-                <ul class="menu">
+                <ul class="menu header header">
                     <li class="menu-item list">
                         <a class="menu-link link current" href="">Студия</a>
                     </li>
@@ -32,7 +32,7 @@
                 </ul>
             </nav>
             
-            <ul class="auth-nav list">
+            <ul class="auth-nav list header">
                 <li>
                     <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
@@ -43,11 +43,14 @@
         </div>
     </header>
     <main>
-        <section class="hero">
-             <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
-
-             <button class="modal-btn" type="button">Заказать услугу</button>
-        </section>
+        <div class="hero-div">
+            <section class="hero container disposition">
+                <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
+                <div class="container disposition-bt"> 
+                <button class="modal-btn" type="button">Заказать услугу</button>
+                </div>
+            </section>
+        </div>
 
         
         <section class="skill">
