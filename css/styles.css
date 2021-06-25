@@ -2,8 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-* 
-*::before,
+* *::before,
 *::after {
   box-sizing: inherit;
 }
@@ -85,7 +84,8 @@ img {
   display: flex;
   align-items: center;
 }
-.menu-item:not(:last-child) {
+.menu-item:not(:last-child)
+ {
   margin-right: 40px;
 }
 
@@ -94,6 +94,7 @@ img {
   margin-right: 50px;
   margin-left: auto;
 }
+/*розметка  heder}*/
 
 /* header 1htm*/
 .logo,
@@ -145,45 +146,54 @@ img {
 .tel-link:focus {
   color: var(--secondary-color);
 }
-/* розметка skill*/
 
 /* hero 1htm*/
-
+/* розметка hero*/
 .hero-title {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  
 
   color: var(--white-color);
 }
 
 .modal-btn {
   background-color: var(--secondary-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 
+  rgba(0, 0, 0, 0.15);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
-  
 
   padding: 12px 32px;
 
   border-radius: 4px;
-  
+
   color: var(--white-color);
 }
 /*розметка  hero}*/
 
-.down{
-  margin-bottom: 30px;
-}
-
 /* skill 1htm*/
+.skill-roster{
+  display: flex;
+  margin-top: -20px;
+  margin-left: -20px;
+  
+}
+.skill{
+  margin-bottom: 94px;
+}
+/* розметка skill*/
 .skill-title {
   display: none;
 }
+
+.roster-down {
+  margin-bottom: 10px;
+}
+/* розметка skill*/
 
 .roster-title {
   font-weight: bold;
@@ -193,11 +203,22 @@ img {
 
   color: var(--accent-color);
 }
-.skill-description {
-  line-height: 1.714px;
-  letter-spacing: 0.03em;
+.slill-item{
+flex-basis: calc((100%-120)/4);
+margin-left: 30px;
 
-  color: var(--third-color);
+}
+.item-down:not(:last-child){
+  margin-left: 30px;
+}
+.skill-description {
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+color: var(--third-color);
 }
 
 /* work 1htm*/
@@ -299,9 +320,10 @@ img {
   background: #2f303a;
   padding-top: 200px;
   padding-bottom: 280px;
+  margin-bottom: 90px;
 
-text-align: center;
-color: var(--white-color);
+  text-align: center;
+  color: var(--white-color);
 }
 
 .footer {
