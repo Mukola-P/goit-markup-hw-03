@@ -320,12 +320,14 @@ margin-bottom: 50px;
   line-height: 2;
 
   color: var(--accent-color);
+padding: 20px 24px;
 }
 
 .card-text {
   font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.88;
+  padding: 8px 24px;
 
   color: var(--third-color);
 }
@@ -356,6 +358,7 @@ margin-bottom: 50px;
 .team-member,
 .team-activity{
   background-color: #FFFFFF;
+  border-radius: 3px
 }
 .team-roster{
  display: flex;
@@ -363,6 +366,10 @@ margin-bottom: 50px;
 justify-content: space-between;
 
 
+}
+.team-list{
+  box-shadow: 0px 1px 3px var(--third-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member{
@@ -400,7 +407,8 @@ margin-left: 8px;
   }
 
 .section-skill{
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 
@@ -410,10 +418,15 @@ margin-left: 8px;
   flex-wrap: wrap;
 }
 .portfolio-card{
-  width: 360;
+  width: 360px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #EEEEEE;
 }
 .portfolio-card:nth-child(3n){
   margin-right: 0px;
+}
+.imgwork{
+  width: 358px;
+
 }
