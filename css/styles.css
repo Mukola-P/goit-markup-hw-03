@@ -28,6 +28,13 @@ body {
 .link {
   text-decoration: none;
 }
+.visibidlity-hidden{
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 
 h1,
 h2,
@@ -197,10 +204,6 @@ padding-left: 0;
   margin-bottom: 94px;
 }
 /* розметка skill*/
-.skill-title {
-  visibility: hidden;
-}
-
 .roster-down {
   margin-bottom: 10px;
 }
