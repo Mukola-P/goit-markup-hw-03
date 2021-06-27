@@ -196,7 +196,8 @@ padding-left: 0;
 
 }
 .skill,
-.team{
+.team,
+.section-work{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -267,11 +268,6 @@ margin-bottom: 50px;
 margin-bottom: 50px;
   color: var(--accent-color);
   margin: 0px;
-}
-.section-work{
-  padding-top: 94px;
-  padding-bottom: 94px;
-  
 }
 
 .team-member {
