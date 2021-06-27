@@ -47,7 +47,7 @@ ol {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -56,9 +56,12 @@ img {
   display: block;
 }
 /*розметка  heder}*/
-.header {
+.header-link {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.header-bord {
+  border-bottom: 1px solid #ECECEC;
 }
 .header-cont {
   display: flex;
@@ -73,6 +76,7 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
+  padding-left: 0px;
 }
 
 .logo {
@@ -80,9 +84,13 @@ img {
   padding-bottom: 25px;
   margin-right: 90px;
 }
+.logo-footer{
+  padding: auto;
+}
 .menu {
   display: flex;
   align-items: center;
+  padding-left: 0px;
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -97,6 +105,7 @@ img {
 
 /* header 1htm*/
 .logo,
+.logo-footer,
 .logo-text {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -179,8 +188,10 @@ img {
 padding-left: 0;
 
 }
-.skill{
-  margin-bottom: 94px;
+.skill,
+.team{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-roste r{
   margin-bottom: 94px;
@@ -203,9 +214,10 @@ padding-left: 0;
 
   color: var(--accent-color);
 }
-.slill-item {
+.skill-item {
   flex-basis: calc((100%-120) / 4);
   margin-left: 30px;
+  width: 270px;
 }
 
   
@@ -226,9 +238,9 @@ padding-left: 0;
   display: flex;
   padding-left: 0;
   justify-content: space-between;
+  margin-top: 50px;
 }
 /*team-title*/
-.team-title,
 .work {
   font-weight: bold;
   font-size: 36px;
@@ -237,12 +249,26 @@ padding-left: 0;
   text-align: center;
 margin-bottom: 50px;
   color: var(--accent-color);
-  padding-top: 94px;
-  padding-bottom: 50px;
   margin: 0px;
 }
 .worktop{
-  margin-bottom: 94px;
+  width: 370px;
+}
+
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+
+  text-align: center;
+margin-bottom: 50px;
+  color: var(--accent-color);
+  margin: 0px;
+}
+.section-work{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
 }
 
 .team-member {
@@ -256,7 +282,7 @@ margin-bottom: 50px;
 .team-activity {
   font-size: 16px;
   line-height: 1.89;
-
+margin-top: 10px;
   text-align: center;
 
   color: var(--third-color);
@@ -267,7 +293,7 @@ margin-bottom: 50px;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
+  
   color: var(--white-color);
 }
 
@@ -320,26 +346,35 @@ margin-bottom: 50px;
   line-height: 2;
 
   color: var(--accent-color);
-padding: 20px 24px;
+
 }
 
 .card-text {
   font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.88;
-  padding: 8px 24px;
+  margin-top: 4px;
+
 
   color: var(--third-color);
+}
+.description{
+  padding: 20px 24px;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+
+
 }
 
 /* fon*/
 .hero {
   background: #2f303a;
   padding-top: 200px;
-  padding-bottom: 280px;
-  height: 600px;
+  padding-bottom: 200px;
+  
 
-  margin-bottom: 94px;
+  
   text-align: center;
   color: var(--white-color);
 }
@@ -347,11 +382,23 @@ padding: 20px 24px;
 .footer {
   background: #2f303a;
   height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-address{
+  margin-top: 20px;
+}
+.footer-mail{
+  margin-top: 8px;
+}
+.footer-tel{
+  margin-top: 8px;
+
 }
 /*team-title*/
 .team{
   background-color: #F5F4FA;
-  padding-bottom: 94px;
+  
 }
 .team-member,
 .team-activity{
@@ -362,68 +409,66 @@ padding: 20px 24px;
  display: flex;
  padding-left: 0px;
 justify-content: space-between;
+margin-top: 50px;
 
 }
+.team-describe{
+  padding: 30px 60px;
+  background-color: var(--white-color);
+}
+  
 .team-list{
   box-shadow: 0px 1px 3px var(--third-color);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-member{
-  padding-top: 30px;
-}
-.team-activity{
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
 /*footer*/
 .logo-second{
-  padding-top: 60px;
+  
 }
 
 .communication {
   margin: 0px;
+  margin-top: 20px;
+
   padding-left: 0px;
-  padding-top: 20px;
-  padding-bottom: 60px;
+ 
 }
 
 /*портфолио*/
 .nav{
   text-align: center;
   padding: 0px;
+  margin-bottom: 34px;
   
 }
 
-  .list-butt{
-display: inline-block;
-padding-bottom: 34px;
-margin-left: 8px;
+.list-butt{
+  display: inline-block;
+}
+  .list-butt:not(:last-child){
+margin-right: 8px;
 
   }
-
-.section-skill{
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 
 .card-list{
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
+  
 }
 .portfolio-card{
-  width: 360px;
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #EEEEEE;
+  bordder: 1px solid #EEEEEE;
 }
 .portfolio-card:nth-child(3n){
   margin-right: 0px;
 }
+
 .imgwork{
-  width: 358px;
+  width: 370px;
 
 }
