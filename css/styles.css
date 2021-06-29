@@ -28,7 +28,7 @@ body {
 .link {
   text-decoration: none;
 }
-.visibidlity-hidden{
+.visually-hidden{
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
@@ -83,6 +83,7 @@ img {
   display: flex;
   align-items: center;
   margin-left: auto;
+  
   padding-left: 0px;
 }
 
@@ -106,9 +107,8 @@ img {
 .mail-link {
   flex-direction: row-reverse;
   margin-left: auto;
-}
-.auth-item{
   margin-right: 50px;
+  
 }
 /*розметка  heder}*/
 
